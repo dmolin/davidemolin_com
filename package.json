@@ -1,0 +1,11 @@
+{
+  "name": "davidemolin_com",
+  "version": "1.0.0",
+  "description": "Davide's website",
+  "scripts": {
+    "dev": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "Davide Molin<davide@davidemolin.com>",
+  "license": "ISC"
+}
