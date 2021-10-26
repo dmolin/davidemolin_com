@@ -1,8 +1,8 @@
 import Head from "next/head";
-import styled from "styled-components";
+// import styled from "styled-components";
 import NavBar from "/components/NavBar";
 
-const MainLayout = ({ children, router }) => {
+const MainLayout = ({ children, _router }) => {
   return (
     <div className="min-h-screen bg-white">
       <Head>
