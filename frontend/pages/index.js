@@ -6,9 +6,13 @@ Index.getLayout = (page) => (
 )
 */
 
+import Jumbotron from "/components/Jumbotron";
+
 const Index = () => {
   return (
-    <div>Hello</div>
+    <section>
+      <Jumbotron />
+    </section>
   );
 };
 
