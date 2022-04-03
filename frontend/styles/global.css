@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div#__next {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    min-height: 100vh;
+}
