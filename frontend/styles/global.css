@@ -10,3 +10,12 @@ div#__next {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.swiper-pagination {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    bottom: 0 !important;
+    padding: 0.2em;
+    background: rgba(230, 230, 230, 0.7);
+}
