@@ -8,15 +8,15 @@ const AboutMe = props => {
       <div>
         <h3 className="section-paragraph">{title}</h3>
         <ul className="flex flex-row gap-2 flex-wrap">
-          {entries.map(e => (
-            <li className="bg-gray-300 text-sm rounded py-1 px-2 font-normal">{e.name}</li>
+          {entries.map((e, idx) => (
+            <li key={idx} className="bg-gray-300 text-sm rounded py-1 px-2 font-normal">{e.name}</li>
           ))}
         </ul>
       </div>
     );
   }
 
-  const containerClass = "container md:max-w-[80%] lg:max-w-[70%]";
+  const containerClass = "container w-[1024px] md:max-w-[80%] lg:max-w-[70%]";
 
   return (
     <section className="bg-gray-100 py-4">
@@ -33,7 +33,6 @@ const AboutMe = props => {
           </div>
 
           <div className="about-me-content grow md:flex-[3] px-4">
-            <p className="my-4">Hi, I’m Davide, nice to meet you!</p>
             <p className="my-4">I’m a Front End Developer (with a mix of Fullstack too), with a passion for Javascript programming, Front End Development, new technologies and solving problems one keystroke at a time.</p>
             <p className="my-4">I've been writing code professionally since 1995, starting with C and C++, then Java Web development (in 2001), eventually falling in love with Front End development and dynamic languages (since 2004).</p>
             <p className="my-4">Nowaday I focus on Front-End and FullStack Development. I love technology, frameworks, crafting great applications and making the world a better place through the use of technology. I'm always up for learning new stuff.</p>
