@@ -20,6 +20,10 @@ div#__next {
     background: rgba(230, 230, 230, 0.7);
 }
 
+.swiper.neutral-pagination .swiper-pagination {
+    background: none;
+}
+
 @layer base {
     html,body {
         font-weight: 300;

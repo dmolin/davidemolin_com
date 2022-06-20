@@ -16,18 +16,18 @@ const AboutMe = props => {
     );
   }
 
-  const containerClass = "container w-[1024px] md:max-w-[80%] lg:max-w-[70%]";
+  const containerClass = "container md:max-w-[80%] lg:max-w-[70%]";
 
   return (
     <section className="bg-gray-100 py-4">
       <h2 className="section-title mt-0">About Me</h2>
       <div className={containerClass}>
         <div className="flex flex-col md:flex-row gap-4">
-          <div className="about-me-image w-full _md:w-1/3 md:flex-[1] flex flex-col items-center">
+          <div className="w-full md:flex-[1] flex flex-col items-center text-center">
             <a href="//linkedin.com/in/davidemolin" target="_blank" aria-label="Davide Molin profile picture">
               <img className="rounded-full max-w-[60%] md:w-full mx-auto" title="dmolin-quarter" src="/img/me250.jpg" alt="Davide Molin profile picture" />
             </a>
-            <p className="testimonial-data">Have a look at my <br />
+            <p className="testimonial-data">
               <a className="link" target="_blank" href="https://www.linkedin.com/in/davidemolin">LinkedIn profile</a>
             </p>
           </div>

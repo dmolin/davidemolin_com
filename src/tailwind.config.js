@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        london: "url(/img/london-skyline.svg)"
+      },
       container: {
         center: true
       },
