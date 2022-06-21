@@ -16,12 +16,10 @@ const AboutMe = props => {
     );
   }
 
-  const containerClass = "container md:max-w-[80%] lg:max-w-[1280px]";
-
   return (
     <section className="bg-gray-100 py-4">
       <h2 className="section-title mt-0">About Me</h2>
-      <div className={containerClass}>
+      <div className="page-container">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full md:flex-[1] flex flex-col items-center text-center">
             <a href="//linkedin.com/in/davidemolin" target="_blank" aria-label="Davide Molin profile picture">
@@ -42,7 +40,7 @@ const AboutMe = props => {
             {_renderSection("Technologies in my TODO list", techs.filter(t => t.moe === 0))}
           </div>
         </div>
-        <div className={`${containerClass} my-6 mt-8`}>
+        <div className={`page-container my-6 mt-8`}>
           <SocialIcons />
         </div>
       </div>

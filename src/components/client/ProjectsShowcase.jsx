@@ -38,18 +38,18 @@ const ProjectSlide = props => {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row px-12">
-      <div className="flex-[2]">
+    <div className="flex flex-col lg:flex-row px-12 pb-8">
+      <div className="flex-[2] flex align-bottom">
         <img src={`/img/${image}`} />
       </div>
       <div className="flex-[1] pt-8 pl-4">
         <header>
-          <h2 className="title text-xl mb-6">{title}</h2>
+          <h2 className="section-header">{title}</h2>
         </header>
         {description.map((d,idx) => (
           <p key={idx} dangerouslySetInnerHTML={{ __html: d }} className="pb-4"/>
         ))}
-        <div className="">
+        <div className="flex flex-row gap-4 flex-wrap">
           {githubLinkOrNothing}
           {liveLinkOrNothing}
           {prodLinkOrNothing}
@@ -69,7 +69,7 @@ const ProjectsShowcase = props => {
     <section className="section">
       <div className="container md:max-w-[90%] lg:max-w-[1280px]">
         <header className="section-header">
-          <h1 className="section-title">A few projects I've worked on</h1>
+          <h1 className="section-title">Some of the projects I worked on</h1>
         </header>
 
         <Swiper
