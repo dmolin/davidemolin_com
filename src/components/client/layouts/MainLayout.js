@@ -4,7 +4,9 @@ const MainLayout = ({ children, _router }) => {
   return (
     <div className="min-h-screen bg-white">
       <NavBar />
-      {children}
+      <div className="min-h-screen pt-12">
+        {children}
+      </div>
     </div>
   );
 };

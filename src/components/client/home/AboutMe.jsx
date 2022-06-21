@@ -16,7 +16,7 @@ const AboutMe = props => {
     );
   }
 
-  const containerClass = "container md:max-w-[80%] lg:max-w-[70%]";
+  const containerClass = "container md:max-w-[80%] lg:max-w-[1280px]";
 
   return (
     <section className="bg-gray-100 py-4">

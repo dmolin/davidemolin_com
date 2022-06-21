@@ -1,17 +1,11 @@
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Virtual, Navigation, Pagination, Scrollbar } from "swiper";
-import "swiper/css";
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-
+import { Swiper, SwiperSlide, Virtual, Navigation, Pagination, Scrollbar } from "@/components/client/Swiper";
 import testimonials from "@/shared/fixtures/testimonials";
 
 const Testimonials = props => {
   return (
     <section className="testimonials section" {...props}>
-      <div className="container md:max-w-[80%] lg:max-w-[70%]">
+      <div className="container md:max-w-[80%] lg:max-w-[1024px]">
         <header className="section-header">
           <h1 className="section-title">Testimonials</h1>
         </header>

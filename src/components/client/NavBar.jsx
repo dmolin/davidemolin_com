@@ -29,7 +29,7 @@ const NavBar = (_props) => {
   );
 
   return (
-    <div className="flex justify-between h-12 items-center px-4 relative">
+    <div className="flex justify-center w-full border-b _justify-between h-12 items-center px-4 _relative fixed z-10 bg-white">
       <div className="flex-shrink-0 flex gap-1">
         <Image src="/img/logo-laptop.svg" height={20} width={35} />
         <Image src="/img/logo-name.svg" height={20} width={148} />

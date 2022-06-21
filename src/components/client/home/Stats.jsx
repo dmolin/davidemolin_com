@@ -7,8 +7,8 @@ const Stats = props => {
   );
 
   return (
-    <section className="bg-london bg-neutral-600 bg-repeat-x bg-left-bottom min-h-[13em]" >
-      <div className="container mx-auto max-w-screen-lg flex flex-col lg:flex-row flex-wrap min-h-[10em] text-white">
+    <section className="bg-london bg-neutral-600 bg-repeat-x bg-left-bottom min-h-[11em]" >
+      <div className="container mx-auto max-w-screen-lg flex flex-col md:flex-row flex-wrap min-h-[10em] text-white">
         {_renderStat("28+", "years of experience")}
         {_renderStat("45800", "hours worked")}
         {_renderStat("13000+", "hours of additional training")}
