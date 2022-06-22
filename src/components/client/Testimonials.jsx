@@ -7,7 +7,7 @@ const Testimonials = props => {
     <section className="testimonials section" {...props}>
       <div className="container md:max-w-[80%] lg:max-w-[1024px]">
         <header className="section-header">
-          <h1 className="section-title">Testimonials</h1>
+          <h2 className="section-title">Testimonials</h2>
         </header>
 
         <Swiper

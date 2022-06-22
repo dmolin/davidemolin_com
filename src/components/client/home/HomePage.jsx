@@ -10,9 +10,7 @@ import Footer from "@/client/Footer";
 const HomePage = props => {
   return (
     <>
-      <section>
-        <Jumbotron />
-      </section>
+      <Jumbotron />
       <AboutMe />
       <Testimonials />
       <Stats />

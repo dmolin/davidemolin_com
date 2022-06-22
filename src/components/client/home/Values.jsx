@@ -10,7 +10,7 @@ const Values = props => {
     <section className="bg-gray-100 p-4 bg-london bg-repeat-x bg-left-bottom pt-1 pb-12">
       <div className="page-container-medium">
         <header className="pb-8 text-center lg:px-16">
-          <h1 className="section-title">My values</h1>
+          <h2 className="section-title">My values</h2>
           <p>Here are some of the things that make me happy and I look for and some of those that make this developer unhappy!</p>
         </header>
 

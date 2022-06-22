@@ -44,7 +44,7 @@ const ProjectSlide = props => {
       </div>
       <div className="flex-[1] pt-8 pl-4">
         <header>
-          <h2 className="section-header">{title}</h2>
+          <h3 className="section-header">{title}</h3>
         </header>
         {description.map((d,idx) => (
           <p key={idx} dangerouslySetInnerHTML={{ __html: d }} className="pb-4"/>
@@ -69,7 +69,7 @@ const ProjectsShowcase = props => {
     <section className="section">
       <div className="container md:max-w-[90%] lg:max-w-[1280px]">
         <header className="section-header">
-          <h1 className="section-title">Some of the projects I worked on</h1>
+          <h2 className="section-title">Some of the projects I worked on</h2>
         </header>
 
         <Swiper
