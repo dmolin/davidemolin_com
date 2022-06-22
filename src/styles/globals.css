@@ -48,7 +48,7 @@ div#__next {
         @apply button-primary bg-green-500
     }
     .section-title {
-        @apply title text-2xl uppercase text-center my-4
+        @apply title text-2xl uppercase text-center my-4 mt-6
     }
 
     .section-paragraph {

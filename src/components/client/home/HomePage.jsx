@@ -4,6 +4,8 @@ import Testimonials from "@/client/Testimonials";
 import Stats from "@/client/home/Stats";
 import ProjectsShowcase from "@/client/ProjectsShowcase";
 import Values from "@/client/home/Values";
+import GetInTouch from "@/client/GetInTouch";
+import Footer from "@/client/Footer";
 
 const HomePage = props => {
   return (
@@ -16,6 +18,8 @@ const HomePage = props => {
       <Stats />
       <ProjectsShowcase />
       <Values />
+      <GetInTouch />
+      <Footer />
     </>
   );
 };

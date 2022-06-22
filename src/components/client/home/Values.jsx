@@ -7,11 +7,11 @@ const Value = ({ children }) => (
 
 const Values = props => {
   return (
-    <section className="bg-gray-100 p-4 bg-london bg-repeat-x bg-left-bottom pb-12">
+    <section className="bg-gray-100 p-4 bg-london bg-repeat-x bg-left-bottom pt-1 pb-12">
       <div className="page-container-medium">
-        <header className="pb-8">
+        <header className="pb-8 text-center lg:px-16">
           <h1 className="section-title">My values</h1>
-          <p>Here is a brief selection of some of the things that make me happy and I look for</p>
+          <p>Here are some of the things that make me happy and I look for and some of those that make this developer unhappy!</p>
         </header>
 
         <div className="flex flex-col gap-4 md:flex-row">
@@ -32,8 +32,8 @@ const Values = props => {
             <h2 className="section-header">Sad face</h2>
             <ul>
               <Value>Traveling</Value>
-              <Value>The practice of <a className="link" href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank">"Agile Alliance XP pair-programming"</a>
-                (this is not the same as 'working/brainstorming with a colleague".. I love that!)</Value>
+              <Value>Forced/Institutionalized <a className="link" href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank">"Agile Alliance XP pair-programming"</a>
+                <span className="text-sm"> (this is not the same as 'working/brainstorming with a colleague".. <b>I love that!</b>)</span></Value>
               <Value>MS Windows...</Value>
             </ul>
           </section>

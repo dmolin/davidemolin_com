@@ -6,7 +6,7 @@ const AboutMe = props => {
   const _renderSection = (title, entries) => {
     return (
       <div>
-        <h3 className="section-paragraph">{title}</h3>
+        <h3 className="section-paragraph pt-4">{title}</h3>
         <ul className="flex flex-row gap-2 flex-wrap">
           {entries.map((e, idx) => (
             <li key={idx} className="bg-gray-300 text-sm rounded py-1 px-2 font-normal">{e.name}</li>
