@@ -1,23 +1,19 @@
-# Next.js + Tailwind CSS Example
+davidemolin.com Website, using Next and Tailwind CSS
+==========================================================================
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+The website is live [here](http://davidemolin.com)
 
-## Deploy your own
+This project is phasing out the old MeteorJS version (you can find it [here](https://github.com/dmolin/davidemolin_meteor)) and adopting NextJS.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+It's still in the making and I'm still working on it so don't expect much. in my TODO list:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- Rewrite in Typescript
+- Move the fixture data in a DB and use Apollo Client to fetch data
 
-## How to use
+### Technologies Used ###
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Next 12
+- React 18
+- Tailwind CSS
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![ScreenShot](/README/davidemolin-screenshot.png?raw=true)
