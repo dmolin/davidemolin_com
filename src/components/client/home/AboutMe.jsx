@@ -33,7 +33,7 @@ const AboutMe = props => {
           <div className="about-me-content grow md:flex-[3] px-4">
             <p className="my-4">I’m a Front End Developer (with a mix of Fullstack too), with a passion for Javascript programming, Front End Development, new technologies and solving problems one keystroke at a time.</p>
             <p className="my-4">I've been writing code professionally since 1995, starting with C and C++, then Java Web development (in 2001), eventually falling in love with Front End development and dynamic languages (since 2004).</p>
-            <p className="my-4">Nowaday I focus on Front-End and FullStack Development. I love technology, frameworks, crafting great applications and making the world a better place through the use of technology. I'm always up for learning new stuff.</p>
+            <p className="my-4">Nowadays I focus on Front-End and FullStack Development. I love technology, frameworks, crafting great applications and <a className="link" href="https://www.youtube.com/watch?v=B8C5sjjhsso" target="_blank">making the world a better place</a> through the use of technology. I'm always up for learning new stuff.</p>
 
             {_renderSection("Technologies I'm currently working with", techs.filter(t => t.current))}
             {_renderSection("Other technologies I've been working with", techs.filter(t => !t.current && t.moe))}
