@@ -18,7 +18,7 @@ export default [
     technologies: ['React 15', 'Redux', 'NodeJS', 'TingoDB', 'BabelJs', 'Webpack', 'Express', 'Node Fibers', 'Mocha/Chai + Sinon'],
     image: 'projects/books.jpg',
     githubUrl: 'https://github.com/dmolin/techtest-books',
-    liveUrl: 'http://books.davidemolin.com',
+    //liveUrl: 'http://books.davidemolin.com',
     priority: 1010
   },
   {
