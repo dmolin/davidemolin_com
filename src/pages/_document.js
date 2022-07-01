@@ -9,10 +9,12 @@ const Document = () => {
         <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Overpass:wght@200&display=swap" rel="stylesheet" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VLNVYSDPW"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {window.dataLayer.push(arguments)}
-          gtag('js', new Date());
-          gtag("config", "G-3VLNVYSDPW");
+          if (typeof window !== "undefined") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {window.dataLayer.push(arguments)}
+            gtag('js', new Date());
+            gtag("config", "G-3VLNVYSDPW");
+          }
         </script>
       </Head>
       <body>
