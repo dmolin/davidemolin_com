@@ -1,10 +1,10 @@
 export default [
   {
-    title: 'New Hubro Simulator',
+    title: 'Hubro Simulation Games',
     description: [
       "With the team at <a href='https://hubro.education' target='_blank'><b class='text-blue-500 underline'>Hubro.education</b></a> we've been pretty busy in implementing simulation games to provide valuable learning experiences to schools and institutions, using the latest reactive realtime technologies, with MeteorJS and React"
     ],
-    technologies: ['React 15', 'MeteorJS'],
+    technologies: ['React 18', 'MeteorJS'],
     image: 'projects/hubro.jpg',
     prodUrl: 'https://hubro.education/en/',
     priority: 1020

@@ -36,7 +36,7 @@ const AboutMe = props => {
             <p className="my-4">Nowadays I focus on Front-End and FullStack Development. I love technology, frameworks, crafting great applications and <a className="link" href="https://www.youtube.com/watch?v=B8C5sjjhsso" target="_blank">making the world a better place</a> through the use of technology. I'm always up for learning new stuff.</p>
 
             {_renderSection("Technologies I'm currently working with", techs.filter(t => t.current))}
-            {_renderSection("Other technologies I've been working with", techs.filter(t => !t.current && t.moe))}
+            {_renderSection("Other technologies I've been previously working with", techs.filter(t => !t.current && t.moe))}
             {_renderSection("Technologies in my TODO list", techs.filter(t => t.moe === 0))}
           </div>
         </div>
