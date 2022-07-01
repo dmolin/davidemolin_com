@@ -8,14 +8,18 @@ const Document = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Overpass:wght@200&display=swap" rel="stylesheet" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VLNVYSDPW"></script>
-        <script>
-          if (typeof window !== "undefined") {
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
-            function gtag() {window.dataLayer.push(arguments)}
+            function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag("config", "G-3VLNVYSDPW");
-          }
-        </script>
+            gtag('config', '${process.env.GOOGLE_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
       </Head>
       <body>
         <Main />
