@@ -10,10 +10,9 @@ const Document = () => {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VLNVYSDPW"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag() {dataLayer.push(arguments)}
           gtag('js', new Date());
-
-          gtag('config', 'G-3VLNVYSDPW');
+          gtag("config", "G-3VLNVYSDPW");
         </script>
       </Head>
       <body>
