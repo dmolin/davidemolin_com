@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Swiper, SwiperSlide, Virtual, Navigation, Pagination, Scrollbar } from "@/components/client/Swiper";
 import testimonials from "@/shared/fixtures/testimonials";
@@ -23,7 +24,7 @@ const Testimonials = props => {
               <SwiperSlide key={idx}>
                 <header className="mx-auto text-center mb-4">
                   <div className="">
-                    <img className="rounded-full w-36 mx-auto border border-gray-300 rounded-full" src={"/img/profiles/" + t.avatar} />
+                    <Image width="144" height="144" className="rounded-full w-36 mx-auto border border-gray-300 rounded-full" src={"/img/profiles/" + t.avatar} />
                   </div>
                   <p className="font-medium">{t.name}</p>
                   <p className="text-sm">{t.title}</p>
