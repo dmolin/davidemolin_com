@@ -23,7 +23,7 @@ const AboutMe = props => {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full md:flex-[1] flex flex-col items-center text-center">
             <a href="//linkedin.com/in/davidemolin" target="_blank" aria-label="Davide Molin profile picture">
-              <img className="rounded-full max-w-[60%] md:w-full mx-auto" title="dmolin-quarter" src="/img/me250.jpg" alt="Davide Molin profile picture" />
+              <img className="rounded-full max-w-[60%] md:w-full mx-auto" title="dmolin-quarter" src="/img/me250.webp" alt="Davide Molin profile picture" />
             </a>
             <p className="testimonial-data">
               <a className="link" target="_blank" href="https://www.linkedin.com/in/davidemolin">LinkedIn profile</a>
