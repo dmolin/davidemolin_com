@@ -35,13 +35,14 @@ const Jumbotron = (props) => {
           loop
         >
           {projects.map(p => {
-            const fgSize = p.fgSize || "auto 100%";
+            const fgSize = p.fgSize || "contain";
+            const fgClass = `"w-[100%] lg:w-[960px] ${p.fgClass ?? ""}`;
             return (
               <SwiperSlide key={p._id}>
                 <div className="h-full bg-cover bg-top"  style={{ backgroundImage: makeImageUrl(p.bgImage) }}>
                   <div
-                    className="h-full bg-cover bg-bottom bg-fix jumbotron-image"
-                    style={{ background: `${makeImageUrl(p.fgImage)} bottom center no-repeat`, backgroundSize: fgSize }}
+                    className={`h-full bg-cover bg-bottom bg-fix jumbotron-image ${fgClass}`}
+                    style={{ background: `${makeImageUrl(p.fgImage)} bottom center no-repeat`, margin: "0 auto", backgroundSize: fgSize }}
                   />
                 </div>
               </SwiperSlide>

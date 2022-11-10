@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Davide's website",
   "scripts": {
-    "dev": "cd frontend && npm run dev"
+    "dev": "cd src && npm run dev"
   },
   "keywords": [],
   "author": "Davide Molin<davide@davidemolin.com>",
