@@ -2,6 +2,7 @@ export default [
   // moe: months of experience
   // legacy: means I'm not using it anymore
   { name: "React", moe: 6 * 12, current: true },
+  { name: "Typescript", moe: 6, current: true },
   { name: "Redux", moe: 12 },
   { name: "ES6", current: true },
   { name: "MeteorJS", moe: 7 * 12, current: true },
@@ -18,7 +19,7 @@ export default [
   { name: "Mocha + Chai", moe: 6 * 12, current: true },
   { name: "Enzyme", moe: 6 * 12, current: true },
   { name: "Javascript", moe: 15 * 12, current: true },
-  { name: "CSS Preprocessors (Sass/Less/Stylus)", moe: 6 * 12, current: true },
+  { name: "CSS (Sass/Less/Stylus)", moe: 6 * 12, current: true },
   { name: "Tailwind CSS", moe: 2, current: true },
   { name: "Responsive development", moe: 6 * 12 },
   { name: "Java", moe: 112, legacy: true },
@@ -26,4 +27,5 @@ export default [
   // moe: 0 means it's in my TODO list
   { name: "GraphQL (Apollo)", moe: 0 },
   { name: "Elixir", moe: 0 },
+  { name: "tRPC", moe: 0 }
 ];
