@@ -25,7 +25,7 @@ export default [
   { name: "Java", moe: 112, legacy: true },
   { name: "J2EE", moe: 112, legacy: true },
   // moe: 0 means it's in my TODO list
-  { name: "GraphQL (Apollo)", moe: 0 },
-  { name: "Elixir", moe: 0 },
-  { name: "tRPC", moe: 0 }
+  { name: "Rust", moe: 0 },
+  { name: "Zig", moe: 0 },
+  { name: "tRPC", moe: 0 },
 ];
