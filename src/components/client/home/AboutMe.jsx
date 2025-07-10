@@ -2,19 +2,24 @@
 import techs from "@/shared/fixtures/techs";
 import SocialIcons from "@/client/home/SocialIcons";
 
-const AboutMe = props => {
+const AboutMe = (props) => {
   const _renderSection = (title, entries) => {
     return (
       <div>
         <h3 className="section-paragraph pt-4">{title}</h3>
         <ul className="flex flex-row gap-2 flex-wrap">
           {entries.map((e, idx) => (
-            <li key={idx} className="bg-gray-300 text-sm rounded py-1 px-2 font-normal">{e.name}</li>
+            <li
+              key={idx}
+              className="bg-gray-300 text-sm rounded py-1 px-2 font-normal"
+            >
+              {e.name}
+            </li>
           ))}
         </ul>
       </div>
     );
-  }
+  };
 
   return (
     <section className="bg-gray-100 py-4">
@@ -22,22 +27,67 @@ const AboutMe = props => {
       <div className="page-container">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full md:flex-[1] flex flex-col items-center text-center">
-            <a href="//linkedin.com/in/davidemolin" target="_blank" aria-label="Davide Molin profile picture">
-              <img className="rounded-full max-w-[60%] md:w-full mx-auto" title="dmolin-quarter" src="/img/me250.webp" alt="Davide Molin profile picture" />
+            <a
+              href="//linkedin.com/in/davidemolin"
+              target="_blank"
+              aria-label="Davide Molin profile picture"
+            >
+              <img
+                className="rounded-full max-w-[60%] md:w-full mx-auto"
+                title="dmolin-quarter"
+                src="/img/me250.webp"
+                alt="Davide Molin profile picture"
+              />
             </a>
             <p className="testimonial-data">
-              <a className="link" target="_blank" href="https://www.linkedin.com/in/davidemolin">LinkedIn profile</a>
+              <a
+                className="link"
+                target="_blank"
+                href="https://www.linkedin.com/in/davidemolin"
+              >
+                LinkedIn profile
+              </a>
             </p>
           </div>
 
           <div className="about-me-content grow md:flex-[3] px-4">
-            <p className="my-4">I’m a Full-Stack Developer with a passion for Javascript/Typescript programming, Front End Development, new technologies and solving problems one keystroke at a time.</p>
-            <p className="my-4">I've been writing code professionally since 1995, starting with C and C++, then Java Web development (in 2001), eventually falling in love with Full-Stack development and dynamic languages (since 2004).</p>
-            <p className="my-4">Nowadays I focus on Front-End and Full-Stack Development. I love technology, frameworks, crafting great applications and <a className="link" href="https://www.youtube.com/watch?v=B8C5sjjhsso" target="_blank">making the world a better place</a> through the use of technology. I'm always up for learning new stuff.</p>
+            <p className="my-4">
+              I’m a Full-Stack Developer with a passion for
+              Javascript/Typescript programming, Front End Development, new
+              technologies and solving problems one keystroke at a time.
+            </p>
+            <p className="my-4">
+              I've been writing code professionally since 1995, starting with C
+              and C++, then Java Web development (in 2001), eventually falling
+              in love with Full-Stack development and dynamic languages (since
+              2004).
+            </p>
+            <p className="my-4">
+              Nowadays I focus on Full-Stack Web Development. I love technology,
+              frameworks, crafting great applications and{" "}
+              <a
+                className="link"
+                href="https://www.youtube.com/watch?v=B8C5sjjhsso"
+                target="_blank"
+              >
+                making the world a better place
+              </a>{" "}
+              through the use of technology. I'm always up for learning new
+              stuff.
+            </p>
 
-            {_renderSection("Technologies I'm currently working with", techs.filter(t => t.current))}
-            {_renderSection("Other technologies I've been previously working with", techs.filter(t => !t.current && t.moe))}
-            {_renderSection("Technologies in my TODO list", techs.filter(t => t.moe === 0))}
+            {_renderSection(
+              "Technologies I'm currently working with",
+              techs.filter((t) => t.current),
+            )}
+            {_renderSection(
+              "Other technologies I've been previously working with",
+              techs.filter((t) => !t.current && t.moe),
+            )}
+            {_renderSection(
+              "Technologies in my TODO list",
+              techs.filter((t) => t.moe === 0),
+            )}
           </div>
         </div>
         <div className={`page-container my-6 mt-8`}>
