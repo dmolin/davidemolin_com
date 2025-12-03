@@ -24,8 +24,7 @@ export default [
   { name: "Responsive development", moe: 6 * 12 },
   { name: "Java", moe: 112, legacy: true },
   { name: "J2EE", moe: 112, legacy: true },
-  // moe: 0 means it's in my TODO list
-  { name: "Rust", moe: 0 },
-  { name: "Zig", moe: 0 },
-  { name: "tRPC", moe: 0 },
+  // moe: 0 means it's in my TODO list (or I'm learning it right now)
+  { name: "Go", moe: 0 },
+  { name: "Odin", moe: 0 },
 ];

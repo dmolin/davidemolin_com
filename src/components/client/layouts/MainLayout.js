@@ -1,4 +1,5 @@
 import NavBar from "@/client/NavBar";
+import { Analytics } from "@vercel/analytics/next";
 
 const MainLayout = ({ children, _router }) => {
   return (
@@ -6,6 +7,7 @@ const MainLayout = ({ children, _router }) => {
       <NavBar />
       <div className="min-h-screen pt-12">
         {children}
+        <Analytics />
       </div>
     </div>
   );

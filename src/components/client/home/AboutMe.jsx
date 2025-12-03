@@ -52,9 +52,9 @@ const AboutMe = (props) => {
 
           <div className="about-me-content grow md:flex-[3] px-4">
             <p className="my-4">
-              I’m a Full-Stack Developer with a passion for
-              Javascript/Typescript programming, Front End Development, new
-              technologies and solving problems one keystroke at a time.
+              I’m a Full-Stack Developer with a passion for Typescript
+              programming, Front End Development, new technologies and solving
+              problems one keystroke at a time.
             </p>
             <p className="my-4">
               I've been writing code professionally since 1995, starting with C
@@ -81,12 +81,12 @@ const AboutMe = (props) => {
               techs.filter((t) => t.current),
             )}
             {_renderSection(
-              "Other technologies I've been previously working with",
-              techs.filter((t) => !t.current && t.moe),
+              "Technologies I'm currently playing with /learning",
+              techs.filter((t) => t.moe === 0),
             )}
             {_renderSection(
-              "Technologies in my TODO list",
-              techs.filter((t) => t.moe === 0),
+              "Other technologies I've been previously working with",
+              techs.filter((t) => !t.current && t.moe),
             )}
           </div>
         </div>
