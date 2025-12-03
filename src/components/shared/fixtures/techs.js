@@ -1,6 +1,7 @@
 export default [
   // moe: months of experience
   // legacy: means I'm not using it anymore
+  { name: "AI APIs", moe: 12, current: true },
   { name: "React", moe: 6 * 12, current: true },
   { name: "Typescript", moe: 6, current: true },
   { name: "Redux", moe: 12 },
