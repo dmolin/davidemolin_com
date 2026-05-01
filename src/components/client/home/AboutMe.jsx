@@ -30,13 +30,13 @@ const AboutMe = (props) => {
             <a
               href="//linkedin.com/in/davidemolin"
               target="_blank"
-              aria-label="Davide Molin profile picture"
+              aria-label="My profile picture"
             >
               <img
                 className="rounded-full max-w-[60%] md:w-full mx-auto"
-                title="dmolin-quarter"
-                src="/img/me250.webp"
-                alt="Davide Molin profile picture"
+                title="My profile picture"
+                src="/img/dmolin-headshot.jpeg"
+                alt="My profile picture"
               />
             </a>
             <p className="testimonial-data">
@@ -52,30 +52,41 @@ const AboutMe = (props) => {
 
           <div className="about-me-content grow md:flex-[3] px-4">
             <p className="my-4">
-              I’m a Full-Stack Developer with a passion for Typescript
-              programming, Front End Development, new technologies and solving
-              problems one keystroke at a time.
+              I’m a Principal Software Engineer and Full-Stack Developer
+              specialising in TypeScript and modern web technologies.
             </p>
             <p className="my-4">
-              I've been writing code professionally since 1995, starting with C
-              and C++, then Java Web development (in 2001), eventually falling
-              in love with Full-Stack development and dynamic languages (since
-              2004).
+              I’ve been building software professionally since 1995, starting
+              with C and C++, moving into Java web development in the early
+              2000s, and transitioning to full-stack and dynamic languages in
+              2004.
             </p>
             <p className="my-4">
-              Nowadays I focus on Full-Stack Web Development. I love technology,
-              frameworks, crafting great applications and{" "}
+              Currently, I work remotely at
               <a
-                className="link"
+                className="link mx-1"
+                href="https://hubrosimulations.com/"
+                target="_blank"
+              >
+                Hubro Simulations
+              </a>
+              (now part of Sage Publishing), where I design and build scalable
+              products, solve complex problems, and continuously explore new
+              technologies.
+            </p>
+            <p className="my-4">
+              I’m passionate about crafting great products, finding innovative
+              solutions, and using technology to
+              <a
+                className="link mx-1"
                 href="https://www.youtube.com/watch?v=B8C5sjjhsso"
                 target="_blank"
               >
-                making the world a better place
-              </a>{" "}
-              through the use of technology. I'm always up for learning new
+                make the world a better place
+              </a>
+              😁 through the use of technology. I'm always up for learning new
               stuff.
             </p>
-
             {_renderSection(
               "Technologies I'm currently working with",
               techs.filter((t) => t.current),
