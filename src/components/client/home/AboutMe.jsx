@@ -76,13 +76,13 @@ const AboutMe = (props) => {
             </p>
             <p className="my-4">
               I’m passionate about crafting great products, finding innovative
-              solutions, and using technology to
+              solutions, and
               <a
                 className="link mx-1"
                 href="https://www.youtube.com/watch?v=B8C5sjjhsso"
                 target="_blank"
               >
-                make the world a better place
+                making the world a better place
               </a>
               😁 through the use of technology. I'm always up for learning new
               stuff.
